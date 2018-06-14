@@ -6,7 +6,7 @@ body {font-family: Oswald; font-size: 14px}
 
 #main {width: 900px; margin: 10px auto;}
 /* Use the 'Bungee Inline' font at 46px and lighter weight for the restaurant name. */
-h1 {font-family: Bungee-Inline; font-weight: lighter;}
+h1 {font-family: 'Bungee Inline'; font-weight: lighter; font-size: 46px;}
 
 
 #menu {columns: 420px 2; column-gap: 60px;}
