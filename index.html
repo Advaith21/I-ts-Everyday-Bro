@@ -1,33 +1,109 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Index</title>
+<head>
+    <title>Rossum's Universal Restaurant</title>
+    <link id="s1" rel="stylesheet" href="style1.css">
+    <link id="s2" rel="stylesheet" href="style2.css" disabled=true>
+</head>
+<body>
+    <div id="main">
+        <header>
+                <nav>
+                    Style:
+                    <a href="javascript:s1.disabled=false; s2.disabled=true;">One</a>
+                    <a href="javascript:s2.disabled=false; s1.disabled=true;">Two</a>
+                </nav>
+                <h1>Rossum's Universal Restaurant</h1>
+        </header>
 
-    
-  </head>
-  <body>
-    <style>
-      h4 {
-      color: orange;
-      }
-      .working {
-      color: pink
-      }
-    </style>
-    <h1>Advaith Sreeram</h1>
-    <h2>GalaxyBrain Extrordinaire</h2>
-    <h3>I think you can figure out who wrote this</h3>
-    <h4>Robotics</h4>
-    <p> No matter what <em>certain</em> people might say, I am the best programmer on the PPHS Robotics team. I have many reasons for this.</p>
-    <ul>Reasons</ul>
-      <li class="working">First person to make a working robot which could score points</li>
-      <li class="working">First person to make a working autonomous</li>
-      <li>First person to make any part of a PID</li>
-    <p> As you can see, there is too much of a reason to not call me the lord and savior of Code-Tastrophe, the best robotics team since dank memes</p>
-    <h4>"Sports"</h3>
-    <p> The subject of this paragraph is mildly amusing because I chose to call it "sports." See, I don't really "do" sports <em> [Nasaly voice] </em> Unless you count e-sports! Anyways, the only sports I'm really "good" at are Cricket and Tennis. You probably don't know what cricket is. It's baseball but it came first, so it's obviously better. As for tennis, you probably know what it is. I also know a little bit about martial arts and I go to Tae Kwon Do classes twice a week.</p>
-    <h4>Games</h3>
-    <p> A common question that I get is what I do with my spare time. For the most part, I play video games. I play a lot of CS:Go, a bit of Fortnite, some ShellShock Live, and WAY too much Binding of Isaac. Games, to me, are a way to escape the word that I live in when it gets too boring or stressful. That's why I want to play games for a living.</p>
-    <h4>My Github Profile</h3>
-    <p><a href="https://github.com/Advaith21"> Link</p>
-  </body>
+        <div id="menu">
+        <section id="starters">
+                <h2>Starters</h2>
+                <dl>
+                    <dt>Crispy Fried Cauliflower</dt>
+                    <dd>
+                            <span class="price">4.95</span>
+                            <span class="details">Beer-battered, breaded, and butter-fried and garnished with diced french onion</span>
+                    </dd>
+                    <dt>Apple Delight</dt>
+                    <dd>
+                            <span class="price">3.95</span>
+                            <span class="details">Fresh slices of Granny Smith apples lightly glazed with honey</span>
+                    </dd>
+                    <dt>Lone Olive</dt>
+                    <dd>
+                        <span class="price">1.95</span>
+                        <span class="details">A single olive, starkly isolated against the blank expanse of a barren plate</span>
+                    </dd>
+                </dl>
+        </section>
+
+        <section id="soupssalads">
+                <h2>Soups and Salads</h2>
+                <dl>
+                    <dt>Tomato and Onion Soup</dt>
+                    <dd>
+                            <span class="price">6.95</span>
+                            <span class="details">Squashed, blended, salted and boiled to perfection</span>                            
+                    </dd>
+                    <dt>Grass Salad</dt>
+                    <dd>
+                            <span class="price">5.95</span>
+                            <span class="details">Organic fescue and bluegrass and a light sprinkling of Bermuda grass, served on a bed of Zoysia</span>                            
+                    </dd>
+                    <dt>Mushroom yum-yum</dt>
+                    <dd>
+                            <span class="price">7.95</span>
+                            <span class="details">Three varieties of fresh-picked, minimally toxic fungus</span>                            
+                    </dd>
+                </dl>
+        </section>
+
+        <section id="entrees">
+                <h2>Entrees</h2>
+                <dl>
+                    <dt>Bread Sandwich Inception</dt>
+                    <dd>
+                            <span class="price">13.95</span>
+                            <span class="details">Two slices of rye between two slices of stone-ground wheat inside 2 slices of raisin bread enclosed within a poppy seed bun</span>                            
+                    </dd>
+                    <dt>Fractal Pizza</dt>
+                    <dd>
+                            <span class="price">15.95</span>
+                            <span class="details">Our signature hand-tossed pizza never burns the roof of your mouth; the space filling curve defining the crust perimeter leaves no surface area for toppings</span>                            
+                    </dd>
+                    <dt>BBQ Medley</dt>
+                    <dd>
+                            <span class="price">14.95</span>
+                            <span class="details">Our house specialty dry rub transforms this pulled fork into a spoon-worthy meal, sure to give you a knife to remember</span>                            
+                    </dd>
+                </dl>
+        </section>
+
+        <section id="desserts">
+                <h2>Desserts</h2>
+                <dl>
+                    <dt>Chocolate Volcano</dt>
+                    <dd>
+                            <span class="price">6.95</span>
+                            <span class="details">You know you want it, it is really quite magnificently tasty</span>    
+                    </dd>
+                    <dt>Gingerbread Me</dt>
+                    <dd>
+                            <span class="price">6.95</span>
+                            <span class="details">One of a kind gingerbread homunculus custom-made in your own likeness</span>    
+                    </dd>
+                </dl>
+        </section>
+        </div>
+
+        <footer>
+            <address>
+                Located at 395 Iowa Street.
+                <br>
+                Open to the public on the 2nd Wednesday and 3rd Tuesday of every February, 11:30am-1:30pm.
+            </address>
+        </footer>
+    </div>
+</body>
 </html>

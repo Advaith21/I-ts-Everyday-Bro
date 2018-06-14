@@ -1,37 +1,7 @@
-## Welcome to GitHub Pages
+# restaurantmenu
 
-You can use the [editor on GitHub](https://github.com/Advaith21/I-ts-Everyday-Bro/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+You will be taking a restaurant's menu and styling it into two different designs using CSS.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The included index.html file contains the menu, and a simple navigation bar allowing you to toggle between two different CSS files, style1.css and style2.css. For now, those two files provide very little styling. However, they do contain comments which suggest style rules you can add or modify to provide a more custom appearance.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Advaith21/I-ts-Everyday-Bro/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The two screenshot examples provided show what the restaurant's menu will look like if you complete all the tasks specified in the comments in the two stylesheets.
